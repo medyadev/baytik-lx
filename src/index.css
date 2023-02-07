@@ -15,4 +15,43 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
 
+@media (max-width: 1024px) {
+  .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero-block {
+    margin-left: 700px;
+  }
+  .administration-group {
+    margin-left: 400px;
+  }
+  .figo-group {
+    margin-left: 200px;
+  }
+  .video-group {
+    width: 90%;
+    margin-left: 200px;
+  }
+  .company-group {
+    flex-direction: column-reverse;
+  }
+  .company-img {
+    top: 560px;
+    left: -100px;
+  }
+
+  .company-content {
+    margin-top: -600px;
+    margin-left: 900px;
+  }
+  .partner {
+    padding-top: 600px !important;
+  }
+}

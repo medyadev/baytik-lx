@@ -8,7 +8,7 @@ import Vortex from '../assets/img/Vortex.svg';
 
 const Partner = () => {
     return (
-        <section id="partner " className=''>
+        <section id="partner " className='partner'>
             <div className='py-5 mb-16  mt-[200px] max-md:mt-6'>
                 <div className="flex justify-center items-center">
                     <img src={PartnerIcons} alt="ContactIcon" width={40} height={40}/> <h2

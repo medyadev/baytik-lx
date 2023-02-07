@@ -3,7 +3,7 @@ import React from 'react';
 const Figo = () => {
     return (
         <section>
-            <div className="container">
+            <div className="container figo-group">
                 <div className='flex justify-around items-center mt-[100px]'>
                     <div className='flex flex-col items-center'>
                         <div style={{border: '1px solid #DDCD9D'}}

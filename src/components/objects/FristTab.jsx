@@ -148,6 +148,7 @@ export default function FristTab() {
 
                         {showModal ? (
                             <>
+
                                 <div className='fixed top-0 left-[25%] z-[100] shadow-2xl transition-[10s] backdrop-opacity-100'>
                                     <div className='bg-[#FFFFFF] w-[800px] min-h-[100vh] rounded-2xl'>
                                         <div className='flex justify-end'>

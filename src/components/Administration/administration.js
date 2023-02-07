@@ -1,11 +1,10 @@
 import React, {useState} from 'react';
 import wer from '../../assets/img/wer.png'
-import der from '../../assets/img/Rectangle 92.png'
-import redes from '../../assets/img/Rectangle 91.png'
-import poi from '../../assets/img/Rectangle 93.png'
-import iop from '../../assets/img/Rectangle 94.png'
-import tyu from '../../assets/img/Rectangle 95.png'
 import dxc from '../../assets/img/wertyu.png'
+import there from '../../assets/img/3.png'
+import foou from '../../assets/img/4.png'
+import fave from '../../assets/img/5.png'
+import six from '../../assets/img/6.png'
 const Administration = () => {
     const [bigImg, setBigImg ] = useState(wer)
 
@@ -20,33 +19,33 @@ const Administration = () => {
         },
         {
             id:3,
-            img: poi
+            img: there
         },
         {
             id:4,
-            img:  iop
+            img:  six
         },
         {
             id:5,
-            img:  tyu
+            img:  fave
         }
     ]
 
     return (
         <section className='mt-[200px]'>
             <div className="container">
-                <div className='flex justify-around'>
+                <div className='flex justify-around administration-group'>
                     <div>
                         <div>
-                            <img src={bigImg} alt="" className='w-[500px] object-cover'/>
+                            <img src={bigImg} alt="" className='w-[700px] h-[470] object-cover'/>
                         </div>
                        <div className='flex cursor-pointer '>
                            {
                                images.map((el,idx) => (
-                                   <div>
+                                   <div className='flex justify-between w-[144px] mt-4'>
 
-                                       <div className='m-[10px] w-[100px]' onClick={() => setBigImg(el.img)}>
-                                           <img src={el.img} alt=""/>
+                                       <div onClick={() => setBigImg(el.img)}>
+                                           <img width={125} height={75}  src={el.img} alt=""/>
                                        </div>
                                    </div>
                                ))

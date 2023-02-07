@@ -37,8 +37,8 @@ export default function Company() {
     return (
         <section className='mt-[300px]'>
             <div className="container">
-                <div className='flex justify-around items-center'>
-                    <div>
+                <div className='flex justify-around items-center company-group'>
+                    <div className="company-content">
                         <div className='flex items-center  ml-[55px]'>
                             <div className='h-[100px] w-[4px] bg-[#C9AE5D] rotate-90'></div>
                             <h1 className='text-[#252525] text-[62px] font-jost font-[300] ml-[100px]'><span
@@ -71,7 +71,7 @@ export default function Company() {
                             </div>
                         </div>
                     </div>
-                    <div className='relative '>
+                    <div className='relative company-img'>
                         <div style={{
                             border: '5px solid #C9AE5D'
                         }

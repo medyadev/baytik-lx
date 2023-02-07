@@ -24,8 +24,7 @@ const Contact = () => {
   } = useForm()
   const onSubmit = (contact) => {
     setLoad(true)
-    axios
-      .post('https://lionfish-app-uawum.ondigitalocean.app/', {
+    axios.post('https://lionfish-app-uawum.ondigitalocean.app/', {
         ...contact,
       })
       .then(({ data }) => {

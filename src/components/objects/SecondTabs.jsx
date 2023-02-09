@@ -32,7 +32,7 @@ export default function SecondTab() {
 
   return (
       <div className="container  ">
-        <div  className='flex justify-between items-center  '>
+        <div  className='flex justify-between items-center  frist-tap '>
           <div className=''>
             <div>
               <Swiper
@@ -58,10 +58,10 @@ export default function SecondTab() {
                   modules={[EffectCreative, Autoplay, Pagination, Navigation]}
                   className="mySwiper"
               >
-                <SwiperSlide><img src={derf1} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={derf1} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={derf2} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={derf3} alt=""/></SwiperSlide>
+                <SwiperSlide><img  className="first-images" src={derf1} alt=""/></SwiperSlide>
+                <SwiperSlide><img  className="first-images" src={derf1} alt=""/></SwiperSlide>
+                <SwiperSlide><img  className="first-images" src={derf2} alt=""/></SwiperSlide>
+                <SwiperSlide><img  className="first-images" src={derf3} alt=""/></SwiperSlide>
               </Swiper>
             </div>
             <div className='flex flex-wrap max-w-[500px] gap-[40px] pt-[50px]'>
@@ -81,7 +81,7 @@ export default function SecondTab() {
                 ))}
             </div>
           </div>
-          <div style={{
+          <div className="first-hr" style={{
             border:'1px solid #E2E2E2',
             height:'600px',
             rotate:'180deg'}}></div>
@@ -135,7 +135,7 @@ export default function SecondTab() {
 
 
         </div>
-        <hr className='w-[1380px] text-[#E2E2E2]'/>
+        <hr  className=' first-hr2 w-[1380px] text-[#E2E2E2]'/>
       </div>
   );
 }

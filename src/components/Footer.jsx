@@ -22,7 +22,7 @@ const Footer = () => {
     },
   ]
   return (
-    <footer id="footer" className="bg-[#C9AE5D]">
+    <footer id="footer" className=" footer bg-[#C9AE5D]">
       <div className="pt-6 pb-3">
         <div className="flex justify-center items-center">
           <img src={Logo} alt="Baytik_LOGO" className="w-[150px] py-3" />

@@ -39,19 +39,19 @@ export default function Company() {
             <div className="container">
                 <div className='flex justify-around items-center company-group'>
                     <div className="company-content">
-                        <div className='flex items-center  ml-[55px]'>
-                            <div className='h-[100px] w-[4px] bg-[#C9AE5D] rotate-90'></div>
-                            <h1 className='text-[#252525] text-[62px] font-jost font-[300] ml-[100px]'><span
+                        <div className='bakyt-red flex items-center  ml-[55px]'>
+                            <div className='drug h-[100px] w-[4px] bg-[#C9AE5D] rotate-90'></div>
+                            <h1 className='malika-pne text-[#252525] text-[62px] font-jost font-[300] ml-[100px]'><span
                                 className='text-[#C9AE5D] text-[62px] font-jost font-[300]'>О</span> компании</h1>
                         </div>
                         <div className='flex items-center'>
                             <div className='h-[110px] w-[4px] bg-[#343232]'></div>
-                            <p className=' ml-[20px] w-[550px] text-[#343232] text-[24px] font-[300] font-jost'>Строительная
+                            <p className=' malika ml-[20px] w-[550px] text-[#343232] text-[24px] font-[300] font-jost'>Строительная
                                 компания «Байтик Люкс» - это команда профессионалов, стремящихся улучшить инфраструктуру
                                 города и украсить его. </p>
                         </div>
                         <div>
-                            <div className='flex mt-[70px] justify-between w-[500px]'>
+                            <div className='bekbol flex mt-[70px] justify-between w-[500px]'>
                                 {
                                     list.map((el, idx) => (
                                         <div key={idx}>
@@ -62,7 +62,7 @@ export default function Company() {
                                          '>
                                                 {el.svg}
                                             </div>
-                                            <h1 className='text-[44px] pt-[15px] font-[300] font-jost text-center'>{el.title}</h1>
+                                            <h1 className=' dastan text-[44px] pt-[15px] font-[300] font-jost text-center'>{el.title}</h1>
                                             <p className=' w-[90px] text-[20px] font-[300] font-jost text-center'>{el.desc}</p>
                                         </div>
 
@@ -75,9 +75,9 @@ export default function Company() {
                         <div style={{
                             border: '5px solid #C9AE5D'
                         }
-                        } className='w-[380px] h-[380px] '></div>
-                        <img className='top-[155px] left-[-120px] absolute ' src={bit} alt=""/>
-                        <img className='absolute right-[-100px] bottom-[120px]' src={bur} alt=""/>
+                        } className='w-[380px] h-[380px] maxa '></div>
+                        <img className='maxa-imgone top-[155px] left-[-120px] absolute ' src={bit} alt=""/>
+                        <img className=' maxa-imgtwo absolute right-[-100px] bottom-[120px]' src={bur} alt=""/>
                     </div>
                 </div>
             </div>

@@ -1,16 +1,19 @@
 /* Local dependencies */
 import "./style.scss";
+
 import {AiFillInstagram, AiFillTwitterCircle,} from "react-icons/ai";
 import { FaFacebook} from 'react-icons/fa'
 import right from '../../assets/img/Rectangle 3.svg'
+import { useState } from "react";
 
 export default function MobileMenu({className}) {
     return (
-        <div
+     <div> 
+           <div
             className={`mobile-menu ${className} h-[100%] w-[100%]  bg-[#C9AE5D] left-0 right-0 fixed z-[999] pt-[120px] justify-center `}
         >
             <div className=" mx-auto max-w-[700px]   ">
-                <div className=" flex justify-between items-center">
+                <div className=" burger-adap flex justify-between items-center">
                   <div>
                       <nav className='flex flex-col'>
                           <a className='pt-[20px] font-[Jost] text-white text-3xl font-light leading-[50px]'  href="src/components/burger#">Главная</a>
@@ -35,5 +38,6 @@ export default function MobileMenu({className}) {
                 </div>
             </div>
         </div>
+     </div>
     );
 }

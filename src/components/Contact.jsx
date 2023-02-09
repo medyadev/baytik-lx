@@ -90,7 +90,7 @@ const Contact = () => {
   }
   return (
     <section id="contact" className="mt-[200px]  relative max-md:mt-6">
-      <div className="pt-5 mx-auto pl-[100px] max-lg:pl-[70px] max-md:pl-0 ">
+      <div className="contact-five pt-5 mx-auto pl-[100px] max-lg:pl-[70px] max-md:pl-0 ">
         <div className="flex justify-center items-center ">
           <img src={ContactIcons} alt="ContactIcon" width={40} height={40} />{' '}
           <h2 className="text-[#B66A20] pl-3 font-[300] uppercase font-[Jost] text-[22px]">
@@ -109,10 +109,10 @@ const Contact = () => {
             индивидуальной консультации
           </p>
         </div>
-        <div className="flex justify-between pt-10 max-sm:py-5 max-sm:flex-col">
+        <div className="contact-one flex justify-between pt-10 max-sm:flex-col">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="w-[450px] max-lg:w-[50%] mb-20 max-sm:w-[100%] max-sm:pb-20 mx-auto relative"
+            className=" form-one w-[450px] max-lg:w-[50%] mb-20 max-sm:w-[100%] max-sm:pb-20 mx-auto relative"
           >
             {load && <LoadChange />}
             {request && <SuccessCom />}
@@ -191,7 +191,7 @@ const Contact = () => {
               </button>
             </div>
           </form>
-          <div className="bg-[#343232] w-[500px] max-lg:w-[50%] max-sm:w-[100%] px-5 py-8">
+          <div className="contact-two bg-[#343232] w-[500px] max-lg:w-[50%] max-sm:w-[100%] px-5 py-8">
             <div className="flex items-center py-3">
               <img src={Location} alt="Location" width={40} className="mx-3" />
               <p className="font-[Jost] text-[#FDFDFD] tetx-[16px] font-300">

@@ -32,17 +32,17 @@ const Administration = () => {
     ]
 
     return (
-        <section className='mt-[200px]'>
+        <section className=' admin mt-[200px]'>
             <div className="container">
                 <div className='flex justify-around administration-group'>
-                    <div>
+                    <div className='afmons'>
                         <div>
                             <img src={bigImg} alt="" className='w-[700px] h-[470] object-cover'/>
                         </div>
                        <div className='flex cursor-pointer '>
                            {
                                images.map((el,idx) => (
-                                   <div className='flex justify-between w-[144px] mt-4'>
+                                   <div className='bakyt flex justify-between w-[144px] mt-4'>
 
                                        <div onClick={() => setBigImg(el.img)}>
                                            <img width={125} height={75}  src={el.img} alt=""/>
@@ -53,7 +53,7 @@ const Administration = () => {
                        </div>
 
                     </div>
-                    <div>
+                    <div  className='adminstaration-red'>
                         <div className='flex items-center pt-[60px]'>
                             <div style={{
                                 border: '1px solid red'
@@ -67,19 +67,19 @@ const Administration = () => {
                                 </svg>
 
                             </div>
-                            <h1 className='pl-[10px] font-[Spartan] text-[#B66A20] tracking-[3px]  text-center uppercase text-[18px] font-[400]'>Administration</h1>
+                            <h1 className='adminstartion pl-[10px] font-[Spartan] text-[#B66A20] tracking-[3px]  text-center uppercase text-[18px] font-[400]'>Administration</h1>
                         </div>
                         <div>
-                            <h1 className='text-[ #252525]  text-[48px] font-[300] font-[Spartan] pt-[40px]'>Customization</h1>
+                            <h1 className=' admon text-[ #252525]  text-[48px] font-[300] font-[Spartan] pt-[40px]'>Customization</h1>
                             <div className='flex pt-[30px] '>
                                 <div className='w-[4px] h-[64px] bg-[#C9AE5D]'></div>
-                                <p className='w-[345px] font-[Spartan] pl-[12px] font-[400]  text-[20px]'>The Ad
+                                <p className=' desc-red w-[345px] font-[Spartan] pl-[12px] font-[400]  text-[20px]'>The Ad
                                     Personam customisation program is for the Huracán and Aventador</p>
                             </div>
                             <h6 style={{
                                 color: 'rgba(51, 51, 51, 0.5)'
                             }
-                            } className='text-[16px] font-[Spartan] font-[400] pt-[30px]  w-[340px]'>Customers wishing
+                            } className='admin-h6 text-[16px] font-[Spartan] font-[400] pt-[30px]  w-[340px]'>Customers wishing
                                 to take advantage of the customisation program can design their own vehicle directly
                                 with Ad Personam Studio.</h6>
 

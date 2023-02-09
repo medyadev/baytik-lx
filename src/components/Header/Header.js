@@ -114,7 +114,7 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <div className="flex justify-end pt-10 pb-10 header">
+        <div className=" header-one flex justify-end pt-10 pb-10 header">
           <img src={logo} alt="" />
         </div>
       </div>

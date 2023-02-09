@@ -11,7 +11,7 @@ export default function Objects() {
 
   return (
     <div className="container">
-      <h1 className="text-center text-[56px] font-[200] text-[ #343232]">Планировки</h1>
+      <h1 className=" object-redux text-center text-[56px] font-[200] text-[ #343232]">Планировки</h1>
       <div className="Tabs">
         <ul  className="nav">
           <TabNavItem

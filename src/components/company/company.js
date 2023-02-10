@@ -39,7 +39,7 @@ export default function Company() {
             <div className="container">
                 <div className='flex justify-around items-center company-group'>
                     <div className="company-content">
-                        <div className='bakyt-red flex items-center  ml-[55px]'>
+                        <div className='bakyt- flex items-center  ml-[55px]'>
                             <div className='drug h-[100px] w-[4px] bg-[#C9AE5D] rotate-90'></div>
                             <h1 className='malika-pne text-[#252525] text-[62px] font-jost font-[300] ml-[100px]'><span
                                 className='text-[#C9AE5D] text-[62px] font-jost font-[300]'>О</span> компании</h1>

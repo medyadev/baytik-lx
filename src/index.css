@@ -382,6 +382,7 @@ margin-left: 14px;
   left: -5px;
   width: 310px;
   top: 182px;
+ 
 }
 .maxa {
   width: 320px;
@@ -391,4 +392,14 @@ margin-left: -16px;
 .company-group {
   padding-bottom: 100px;
 }
+.first-images {
+  max-width: 60%;
+  margin-left: 106px;
+}
+
+}
+
+.modal-line {
+ transform: translateY(100px);
+ 
 }

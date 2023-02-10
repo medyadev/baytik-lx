@@ -146,11 +146,11 @@ export default function FristTab() {
                             </button>
                         </div>
 
-                        {showModal ? (
-                            <div onClick={() => setShowModal(false)} className=" top-0 left-0  w-[100%] fixed z-[999]   h-[100vh]">
+                        {showModal ?  (
+                            <div onClick={() => setShowModal(false)} className="top-0 left-0 bg-[#ffffff94]  w-[100%] fixed z-[999] h-[100vh]">
 
-                                <div className='fixed modal-line top-0 left-[25%] z-[10] shadow-2xl transition-[10s] backdrop-opacity-100'>
-                                    <div className='bg-[#FFFFFF] w-[800px] min-h-[100vh] rounded-2xl'>
+                                <div className='fixed modal-line top-[7%] left-[25%] z-[10] shadow-2xl transition-[10s]'>
+                                    <div className='bg-[#FFFFFF] w-[800px] h-[800px] rounded-2xl'>
                                         <div className='flex justify-end'>
                                             <button onClick={() => setShowModal(false)} className='text-[#000000] text-[14px] font-[200] m-4 '>Закрыть</button>
                                         </div>

@@ -106,10 +106,6 @@ margin-left: -130px;
 
 }
 }
-
-
-
-
 @media (max-width:768px) {
 
 .hero-block {
@@ -290,250 +286,109 @@ margin-left: 14px;
 }
 
 @media (max-width:390px) {
-  .w-\[800px\] {
-    width: 248px;
-  }
-  .pt-\[50px\] {
-    padding-top: 47px;
-    padding: 0;
-  }
-  .company-content {
-    margin-top: -261px;
-  }
-  .justify-around {
-    justify-content: space-around;
-    flex-direction: column;
-  }
-  .pt-\[50px\] {
-    padding-top: 47px;
-    padding: 0 0 0 127px;
-  }
- 
-  .w-\[500px\] {
-    width: 404px;
-  }
- 
-  .ml-\[20px\] {
-    margin-left: 17px;
-  }
-  .hero-block {
-    margin-left: -34px;
-  }
-  img, video {
-    max-width: 103%;
-    height: auto;
-    left: 19px;
-  }
   .hero-block1 {
-    border: none;
+    width: 304px;
+    height: 367px;
   }
-  .right-\[30px\] {
-  right: 200px;
+  .admon {
+    font-size: 42px;
+  }
+  .desc-red {
+    font-size: 15px;
+    width: 314px;
+  }
+  .first-images {
+    max-width: 65%;
+    margin-left: 90px;
+  }
+  .dap {
+    padding-left: 100px;
+        gap: 15px;
+    max-width: 522px;
+  }
+  .mat {
+    font-size: 14px;
+  }
+  .pat {
+    font-size: 14px;
+  }
+  .aza {
+    width: 180px;
+  }
+  .first-red {
+    width: 380px;
+    margin-left: 68px;
+  }
+ .first-black {
+  font-size: 14px;
+ }
+ .object-h1 {
+  font-size: 13px;
 }
-.top-\[30px\] {
-  top: 30px;
-}
-.absolute {
-  position: absolute;
-}
-img, video {
-  max-width: 87%;
-  height: auto;
-  left: 19px;
-}
-.hero-block1 {
-  width: 288px;
-  height: 363px;
-}
-.first-images {
-  max-width: 58%;
-  margin-left: 115px;
-}
-.first-red {
-  width: 336px;
-  margin-left: 85px;
+.btn-first {
+  width: 143px;
+  height: 38px;
+  font-size: 13px;
+  font-weight: 300;
 }
 .aziret {
-  margin-left: 82px;
+  gap: 10px;
+  margin-left: 100px;
 }
-.gap-\[20px\] {
-  gap: 4px;
+.cotege-medu {
+  padding: 5px 0;
 }
-.mt-\[40px\] {
-  margin-top: -23px;
-}
-.text-\[62px\] {
-  font-size: 52px;
-}
-.text-\[22px\] {
-  font-size: 20px;
+.cotege-medu {
+  font-size: 55px;
+  line-height: 50px;
 }
 .cotege-desc {
-  width: 361px;
+  font-size: 18px;
+  width: 360px;
 }
-.malika {
-  width: 342px;
+.cotege-gap {
+  gap: 0.5rem;
 }
-.text-\[24px\] {
-  font-size: 24px;
-}
-.ml-\[20px\] {
-  margin-left: 30px;
-}
-.maxa-imgone {
-  left: 19px;
-}
-.top-\[155px\] {
-  top: 197px;
-}
-.justify-evenly {
-  flex-direction: column;
-}
-.dap {
-  flex-direction: column;
-  padding-left: 109px;
-}
-.figo-one {
-  flex-direction: column;
+.cotege-one {
+  margin-left: -20px;
 }
 .drug {
-  height: 77px;
-  margin-left: 14px;
   display: none;
 }
-.ml-\[55px\] {
-  margin-left: -34px;
+.malika-pne {
+  margin-left: 10px;
 }
+.malika-pne span {
+  font-size: 52px;
 }
-
-
-@media (max-width:320px) {
-  .hero-h1 {
-    font-size: 50px;
-  }
-  .hero-span {
-    font-size: 50px;
-  }
-  .hero-block {
-    margin-left: 10px;
-  }
-  .hero-block1 {
-    width: 270px;
-height: 317px;
-  }
-  .hero-block2 {
-      width: 260px;
-      height: 317px;
-    }
-    .button {
-      font-size: 10px !important;
-      padding: 17px 50px !important;
-    }
-    .adminstartion {
-      font-size: 20px;
-    }
-    .admon {
-      font-size: 35px;
-    }
-    .desc-red {
-      font-size: 16px;
-      font-weight: 300;
-    }
-    .admin-h6 {
-      width: 290px;
-    }
-    .afmons {
-      margin-left: -120px;
-    }
-    .bakyt {
-      margin-top: 5px;
-    }
-    .object-redux {
-      font-size: 48px;
-    }
-    .first-images {
-      max-width: 54%;
-      margin-left: 123px;
-    }
-    .dap {
-      padding-left: 180px;
-      max-width: 508px;
-    }
-    .first-red {
-      width: 322px;
-      margin-left: 97px;
-    }
-    .btn-first {
-      width: 160px;
-      height: 43px;
-      font-size: 14px;
-    }
-    .jyky {
-      width: 25px;
-    }
-    .aziret {
-      max-width: 350px;
-      gap: 1px;
-      margin-left: 110px;
-    }
-    .aziret-beka {
-      width: 30px;
-    }
-    .first-black  {
-      font-size: 15px;
-    }
-    .cotege-medu {
-      font-size: 50px;
-    }
-    .cotege-medu  span{
-      font-size: 50px;
-    }
-    .cotege-desc {
-      width: 300px;
-      font-size: 16px;
-    }
-    .cotege-one {
-      margin-left: -15px;
-    }
-    .cotege-gap {
-      gap: 0.5rem;
-    }
-    .malika-pne {
-      font-size: 38px;
-      margin-left: 60px;
-    }
-    .malika-pne span {
-      font-size: 44px;
-    }
-    .drug {
-      height: 50px;
-      margin-left: 34px;
-    }
-    .bakyt-red {
-      margin-left: 1px;
-    }
-    .malika {
-      width: 298px;
-        }
-        .bekbol {
-         flex-wrap: wrap;
-         width: 155px;
-         margin-left: 100px;
-                }
-        .company-content {
-          margin-left: 4px;
-        }
-        .company-img {
-          top: 934px;
-        }
-        .maxa {
-          width: 279px;
-        }
-        .maxa-imgone {
-          left: -6px;
-          top: 180px;
-        }
-        .maxa-imgtwo {
-          right: 6px;
-        }
+.malika {
+  font-size: 17px;
+  margin-left: 75px;
+  width: 320px;
+}
+.dastan {
+  font-size: 18px;
+}
+.azit {
+  font-size: 16px;
+}
+.bekbol {
+  width: 423px;
+}
+.maxa-imgtwo {
+  right: 5px;
+}
+.maxa-imgone {
+  left: -5px;
+  width: 310px;
+  top: 182px;
+}
+.maxa {
+  width: 320px;
+height: 300px;
+margin-left: -16px;
+}
+.company-group {
+  padding-bottom: 100px;
+}
 }

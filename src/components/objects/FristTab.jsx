@@ -78,7 +78,7 @@ export default function FristTab() {
                             {
                                 lists.map((element, index) => (
                                     <div key={index}>
-                                        <div className='flex items-center w-[223px]'>
+                                        <div className='aza flex items-center w-[223px]'>
                                             <div className='mr-[13px]'>
                                                 {element.svg}
                                             </div>
@@ -147,9 +147,9 @@ export default function FristTab() {
                         </div>
 
                         {showModal ? (
-                            <>
+                            <div onClick={() => setShowModal(false)} className=" top-0 left-0  w-[100%] fixed z-[999]   h-[100vh]">
 
-                                <div className='fixed modal-line top-0 left-[25%] z-[100] shadow-2xl transition-[10s] backdrop-opacity-100'>
+                                <div className='fixed modal-line top-0 left-[25%] z-[10] shadow-2xl transition-[10s] backdrop-opacity-100'>
                                     <div className='bg-[#FFFFFF] w-[800px] min-h-[100vh] rounded-2xl'>
                                         <div className='flex justify-end'>
                                             <button onClick={() => setShowModal(false)} className='text-[#000000] text-[14px] font-[200] m-4 '>Закрыть</button>
@@ -194,7 +194,7 @@ export default function FristTab() {
                                     </div>
                                 </div>
 
-                            </>
+                            </div>
                         ) : null}
 
 

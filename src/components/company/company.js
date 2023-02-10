@@ -57,13 +57,18 @@ export default function Company() {
                                         <div key={idx}>
                                             <div style={{
                                                 border: '1px solid  #DDCD9D'
-                                            }} className='w-[88px] h-[88px] rounded-full flex justify-center items-center
+                                            }} className=' blue w-[88px] h-[88px] rounded-full flex justify-center items-center
                                          }
                                          '>
-                                                {el.svg}
+                                            {el.svg}
+                                            
                                             </div>
+                                            
                                             <h1 className=' dastan text-[44px] pt-[15px] font-[300] font-jost text-center'>{el.title}</h1>
-                                            <p className=' w-[90px] text-[20px] font-[300] font-jost text-center'>{el.desc}</p>
+                                            <p className=' 
+                                            azit
+                                            w-[90px] text-[20px] font-[300] font-jost text-center'>{el.desc}</p>
+                                            
                                         </div>
 
                                     ))
@@ -72,6 +77,8 @@ export default function Company() {
                         </div>
                     </div>
                     <div className='relative company-img'>
+                        
+                        
                         <div style={{
                             border: '5px solid #C9AE5D'
                         }

@@ -194,10 +194,10 @@ const Contact = () => {
           <div className="contact-two bg-[#343232] w-[500px] max-lg:w-[50%] max-sm:w-[100%] px-5 py-8">
             <div className="flex items-center py-3">
               <img src={Location} alt="Location" width={40} className="mx-3" />
-              <p className="font-[Jost] text-[#FDFDFD] tetx-[16px] font-300">
-                г. Бишкек, ул. Токтогула 125/1 <br /> Бизнес-центр «Авангард» 1
-                и 2 этажи
-              </p>
+             <a href="https://goo.gl/maps/KFYH6jR3B6tR1Ejh9" target='_blank'> <p className="font-[Jost] text-[#FDFDFD] tetx-[16px] font-300">
+                г. Бишкек, ул. Юнусалиева 278А <br /> ТД "КЕРАМИН" 
+              
+              </p></a>
             </div>
             <div className="flex items-center my-3">
               <img src={SmsEmail} alt="Email" width={40} className="mx-3" />

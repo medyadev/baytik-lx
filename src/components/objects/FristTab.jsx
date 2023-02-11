@@ -9,6 +9,7 @@ import wil from "../../assets/img/villa 250 1.png";
 import "swiper/css";
 import "swiper/css/effect-creative";
 import { Autoplay, EffectCreative, Navigation, Pagination } from "swiper";
+import Slider from "react-slick";
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import wrt from "../../assets/img/villa 250 3.png";
@@ -40,6 +41,16 @@ export default function FristTab() {
   useEffect(() => {
     Aos.init();
   }, []);
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
   return (
     <>
       <div className="container  ">
@@ -157,10 +168,10 @@ export default function FristTab() {
                   fill="#009EE3"
                 />
               </svg>
-              <h1 className=" object-h1 text-[37px] mx-[10px] font-[600] font-OpenSans">
+              <h1 className=" object-h1 text-[37px] mx-[10px] font-[600] font-[jost]">
                 250p
               </h1>
-              <p className=" first-black text-[21px] px-[10px] font-[600] font-OpenSans">
+              <p className=" first-black text-[21px] px-[10px] font-[600] font-[jost]">
                 M2
               </p>
               <button

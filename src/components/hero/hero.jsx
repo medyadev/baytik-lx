@@ -19,7 +19,7 @@ const Hero = () => {
                                 Надежность <br/>
                                 Комфорт</p>
                         </div>
-                        <button className='button '>Посмотреть коттеджи</button>
+                       <a href="#cotege"> <button className='button '>Посмотреть коттеджи</button></a>
 
                     </div>
                     <div  data-aos="zoom-in-up" className='relative hero-block'>

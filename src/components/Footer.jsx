@@ -32,7 +32,7 @@ const Footer = () => {
             <a
               href={`#${el.link}`}
               key={idx}
-              className="font-[Sparta] font-[100] text-[15px] px-[20px] text-[#FDFDFD]"
+              className="font-[spartan] font-[100] text-[15px] px-[20px] text-[#FDFDFD]"
             >
               {el.name}
             </a>

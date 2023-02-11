@@ -16,7 +16,7 @@ import Company from "./components/company/company";
 
 function App() {
     return (
-        <div className='flex'>
+        <div id='glova' className='flex'>
             <div className='w-[5%]'>
                 <Burger />
             </div>

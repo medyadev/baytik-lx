@@ -50,7 +50,7 @@ const Cotege = () => {
 
     return (
 
-        <section className='mt-[200px]'>
+        <section id='cotege' className='mt-[200px]'>
             <div className="container">
                 <div className='flex justify-between cotege-one'>
                     <div>

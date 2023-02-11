@@ -35,7 +35,7 @@ export default function Company() {
 
     ]
     return (
-        <section className='mt-[300px]'>
+        <section id='about' className='mt-[300px]'>
             <div className="container">
                 <div className='flex justify-around items-center company-group'>
                     <div className="company-content">

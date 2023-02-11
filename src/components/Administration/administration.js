@@ -32,7 +32,7 @@ const Administration = () => {
     ]
 
     return (
-        <section className=' admin mt-[200px]'>
+        <section id='admin' className=' admin mt-[200px]'>
             <div className="container">
                 <div className='flex justify-around administration-group'>
                     <div className='afmons'>

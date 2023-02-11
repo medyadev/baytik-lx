@@ -8,6 +8,10 @@
 
 }
 
+body,html {
+    scroll-behavior: smooth;
+}
+
 /* Tab Navigation */
 ul.nav {
     max-width: 800px;
@@ -76,3 +80,32 @@ ul.nav p.active {
     color: #fff;
 }
 
+.modal-line {
+    animation: mod .4s linear alternate ;
+}
+
+@keyframes mod {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(0.3);
+        opacity: 0.3;
+    }
+     50% {
+        transform: scale(0.6);
+        opacity: 0.6;
+     }
+     75% {
+        transform: scale(0.9);
+        opacity: 0.9;
+     }
+     90% {
+        transform: scale(1.1);
+        opacity: 1;
+     }
+     100% {
+        transform: scale(1);
+     }
+}

@@ -11,8 +11,9 @@ import loo from '../../assets/img/Frame 682.png'
 import "swiper/css";
 import "swiper/css/effect-creative";
 import {Autoplay, EffectCreative, Navigation, Pagination} from "swiper";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import wrt from '../../assets/img/villa 250 3.png'
+import Aos from "aos";
 
 
 
@@ -41,12 +42,14 @@ export default function FristTab() {
         },
     ];
 
-
+useEffect(() => {
+    Aos.init()
+},[])
     return (
         <>
             <div className="container  ">
                 <div  className='flex justify-around items-center frist-tap '>
-                    <div className=''>
+                    <div  data-aos-duration="1000" data-aos="fade-right" className=''>
                         <div>
                             <Swiper
                                 grabCursor={true}
@@ -102,7 +105,7 @@ export default function FristTab() {
 
                     }}></div>
 
-                    <div className=' akna ml-[100px]'>
+                    <div className=' data-aos-duration="1000" data-aos="fade-left" akna ml-[100px]'>
                         <div>
                             <Swiper
                                 grabCursor={true}

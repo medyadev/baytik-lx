@@ -9,7 +9,8 @@ import wil from "../../assets/img/villa 250 1.png";
 import "swiper/css";
 import "swiper/css/effect-creative";
 import { Autoplay, EffectCreative, Navigation, Pagination } from "swiper";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Aos from "aos";
 import wrt from "../../assets/img/villa 250 3.png";
 
 export default function FristTab() {
@@ -36,7 +37,9 @@ export default function FristTab() {
       svg: <ArrowLinerOrange />,
     },
   ];
-
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <div className="container  ">
@@ -108,7 +111,7 @@ export default function FristTab() {
           ></div>
 
           <div className=" akna ml-[100px]">
-            <div>
+            <div >
               <Swiper
                 grabCursor={true}
                 effect={"creative"}
@@ -185,7 +188,7 @@ export default function FristTab() {
                 onClick={() => setShowModal(false)}
                 className="top-0 left-0  w-[100%] fixed z-[999] h-[100vh]"
                 style={{
-                    backdropFilter:"blur(5px)"
+                  backdropFilter: "blur(5px)",
                 }}
               >
                 <div className="fixed modal-line top-[7%] left-[25%] z-[10] shadow-2xl transition-[10s]">
@@ -193,7 +196,7 @@ export default function FristTab() {
                     <div className="flex justify-end">
                       <button
                         onClick={() => setShowModal(false)}
-                        className="text-[#000000] text-[14px] font-[200] m-4 "
+                        className="modal-false text-[#000000] text-[14px] font-[200] m-4 "
                       >
                         Закрыть
                       </button>
@@ -210,7 +213,7 @@ export default function FristTab() {
                       </h1>
                     </div>
                     <div className="flex justify-center items-center mt-[50px]">
-                      <img  className="modal-img" src={wrt} alt="" />
+                      <img className="modal-img" src={wrt} alt="" />
                     </div>
                     <div className="flex justify-around items-center pt-[40px]">
                       <div>

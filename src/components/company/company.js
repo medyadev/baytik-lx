@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import bit from '../../assets/img/Bitmap (3).png'
 import bur from '../../assets/img/Bitmap (2).png'
+import Aos from 'aos';
 
 export default function Company() {
 
@@ -34,11 +35,14 @@ export default function Company() {
         },
 
     ]
+    useEffect(() => {
+        Aos.init()
+    })
     return (
         <section id='about' className='mt-[300px]'>
             <div className="container">
                 <div className='flex justify-around items-center company-group'>
-                    <div className="company-content">
+                    <div  data-aos-duration="1000" data-aos="fade-right" className="company-content">
                         <div className='bakyt- flex items-center  ml-[55px]'>
                             <div className='drug h-[100px] w-[4px] bg-[#C9AE5D] rotate-90'></div>
                             <h1 className='malika-pne text-[#252525] text-[62px] font-jost font-[300] ml-[100px]'><span
@@ -76,9 +80,9 @@ export default function Company() {
                             </div>
                         </div>
                     </div>
-                    <div className='relative company-img'>
-                        
-                        
+
+                    <div  data-aos-duration="1000" data-aos="fade-left" className='relative company-img'>
+                    
                         <div style={{
                             border: '5px solid #C9AE5D'
                         }

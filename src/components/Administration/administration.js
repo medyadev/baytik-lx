@@ -1,12 +1,15 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import wer from '../../assets/img/wer.png'
 import dxc from '../../assets/img/wertyu.png'
 import there from '../../assets/img/3.png'
 import foou from '../../assets/img/4.png'
 import fave from '../../assets/img/5.png'
 import six from '../../assets/img/6.png'
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 const Administration = () => {
     const [bigImg, setBigImg ] = useState(wer)
+
 
     const images = [
         {
@@ -31,11 +34,16 @@ const Administration = () => {
         }
     ]
 
+    useEffect(() => {
+        Aos.init()
+    },[]) 
+
+    
     return (
         <section id='admin' className=' admin mt-[200px]'>
             <div className="container">
                 <div className='flex justify-around administration-group'>
-                    <div className='afmons'>
+                    <div  data-aos-duration="1000" data-aos="zoom-in"  className='afmons'>
                         <div>
                             <img src={bigImg} alt="" className='w-[700px] h-[470] object-cover'/>
                         </div>
@@ -53,7 +61,7 @@ const Administration = () => {
                        </div>
 
                     </div>
-                    <div  className='adminstaration-red'>
+                    <div  data-aos="zoom-in-up"   data-aos-duration="1000" className='adminstaration-red'>
                         <div className='flex items-center pt-[60px]'>
                             <div style={{
                                 border: '1px solid red'

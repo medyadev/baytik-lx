@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import imagesfe from "../../assets/img/redf.svg";
 import wqa from '../../assets/img/56.svg'
 import rewsa from '../../assets/img/wers.svg'
 import medun from '../../assets/img/medu.svg'
+import Aos from "aos";
 const Figo = () => {
+
+  useEffect(() => {
+    Aos.init()
+  },[])
   return (
     <section>
       <div className="container figo-group">
         <div className=" figo-one flex justify-around items-center mt-[100px]">
-          <div className="flex flex-col items-center">
+          <div data-aos="zoom-in"className="flex flex-col items-center">
             <div
               style={{ border: "1px solid #DDCD9D" }}
               className="figo-cercle w-[100px] h-[100px] rounded-full flex justify-center items-center"
@@ -33,7 +38,7 @@ const Figo = () => {
               Современная домофонная система
             </p>
           </div>
-          <div className="flex flex-col items-center">
+          <div data-aos="zoom-in"className="flex flex-col items-center">
             <div
               style={{ border: "1px solid #DDCD9D" }}
               className=" figo-cercle w-[100px] h-[100px] rounded-full flex justify-center items-center"
@@ -44,7 +49,7 @@ const Figo = () => {
             Детская игровая площадка
             </p>
           </div>
-          <div className="flex flex-col items-center">
+          <div data-aos="zoom-in" className="flex flex-col items-center">
             <div
               style={{ border: "1px solid #DDCD9D" }}
               className=" figo-cercle w-[100px] h-[100px] rounded-full flex justify-center items-center"
@@ -57,7 +62,7 @@ const Figo = () => {
           </div>
         </div>
         <div className="flex figo-redux justify-evenly items-center pt-[50px]">
-          <div className="flex flex-col items-center">
+          <div data-aos="zoom-in-right"className="flex flex-col items-center">
             <div
               style={{ border: "1px solid #DDCD9D" }}
               className="w-[100px] h-[100px] rounded-full flex justify-center items-center"
@@ -68,7 +73,7 @@ const Figo = () => {
             Workout площадка
             </p>
           </div>
-          <div className="flex flex-col items-center">
+          <div data-aos="zoom-in-left" className="flex flex-col items-center">
             <div
               style={{ border: "1px solid #DDCD9D" }}
               className="w-[100px] h-[100px] rounded-full flex justify-center items-center"

@@ -42,7 +42,7 @@ const Contact = () => {
   }
   const LoadChange = () => {
     return (
-      <div className="absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center z-[100] shadow-gray-100 backdrop-blur-[1px]">
+      <div id='contact' className="absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center z-[100] shadow-gray-100 backdrop-blur-[1px]">
         <svg
           aria-hidden="true"
           className="inline w-8 h-8 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"

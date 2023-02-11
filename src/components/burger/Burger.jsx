@@ -11,11 +11,10 @@ export default function Burger() {
       {openBurger && <div 
       onClick={() => setOpenBurger(false)}
       className="fixed z-[100] w-[100vw] h-[100vh]"/>}
-      {<MobileMenu className={openBurger ? "transform" : ""} />}
-      <button
-        onClick={() => setOpenBurger(!openBurger)}
+      {<MobileMenu setOpenBurger={setOpenBurger} className={openBurger ? "transform" : ""} />}
+      <button onClick={() => setOpenBurger(!openBurger)}
         className={`burger-button ${openBurger ? "active" : ""} ml-auto`}
-      >
+  >
         <div className="burger-button-bottom w-[25px] rounded-[10px] ml-auto h-[2px] text-white"></div>
 
         <div className="burger-button-top w-[25px] rounded-[10px] ml-auto h-[2px] text-white"></div>

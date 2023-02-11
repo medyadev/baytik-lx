@@ -189,7 +189,7 @@ export default function FristTab() {
                 }}
               >
                 <div className="fixed modal-line top-[7%] left-[25%] z-[10] shadow-2xl transition-[10s]">
-                  <div className="bg-[#FFFFFF] w-[800px] h-[800px] rounded-2xl">
+                  <div className="modal bg-[#FFFFFF] w-[800px] h-[800px] rounded-2xl">
                     <div className="flex justify-end">
                       <button
                         onClick={() => setShowModal(false)}
@@ -205,19 +205,19 @@ export default function FristTab() {
                         }}
                         className="w-[45px]"
                       ></div>
-                      <h1 className="font-jost text-[#343232;] font-[400]">
+                      <h1 className=" font-jost text-[#343232;] font-[400]">
                         1 этаж
                       </h1>
                     </div>
                     <div className="flex justify-center items-center mt-[50px]">
-                      <img src={wrt} alt="" />
+                      <img  className="modal-img" src={wrt} alt="" />
                     </div>
                     <div className="flex justify-around items-center pt-[40px]">
                       <div>
                         <h1 className="text-[14px] font-[300] font-jost">
                           № 1
                         </h1>
-                        <h1 className="text-[14px]  font-[300] font-jost">
+                        <h1 className="modal-text text-[14px]  font-[300] font-jost">
                           ОБЩАЯ ПЛОЩАДЬ 290,71 м2 <br />
                           1. Холл - 22,11 м2 <br />
                           2. Гостиная - 62,61 м2 <br />
@@ -236,7 +236,7 @@ export default function FristTab() {
                         <h2 className="text-[14px] font-[300] font-jost">
                           № 2
                         </h2>
-                        <h1 className="text-[14px] font-[300] font-jost">
+                        <h1 className=" modal-text text-[14px] font-[300] font-jost">
                           ОБЩАЯ ПЛОЩАДЬ 290,71 м2 <br />
                           1. Холл - 22,11 м2 <br />
                           2. Гостиная - 62,61 м2 <br />

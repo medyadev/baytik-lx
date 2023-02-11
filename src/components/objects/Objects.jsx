@@ -10,7 +10,7 @@ export default function Objects() {
   const [activeTab, setActiveTab] = useState("tab1");
 
   return (
-    <div id="object" className="container">
+    <div id="object" className="container overflow-hidden">
       <h1 className=" object-redux text-center text-[56px] font-[200] text-[ #343232]">Планировки</h1>
       <div className="Tabs">
         <ul  className="nav">

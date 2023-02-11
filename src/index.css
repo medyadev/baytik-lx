@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Sassy+Frass&family=Solitreo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Sassy+Frass&family=Solitreo&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 * {
   margin: 0;
@@ -22,11 +20,9 @@
   .container {
     width: 90%;
   }
-  .cotege-desc{
+  .cotege-desc {
     width: 400px;
   }
- 
- 
 }
 
 @media (max-width: 1024px) {
@@ -34,7 +30,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .burger-adap  {
+  .burger-adap {
     margin-left: 230px;
   }
   .hero-block {
@@ -44,6 +40,10 @@
   .administration-group {
     margin-left: 200px;
     flex-direction: column-reverse;
+  }
+  .modal {
+    margin-left: -115px;
+    margin-top: -43px;
   }
 
   .video-group {
@@ -63,13 +63,12 @@
 
   .company-content {
     margin-top: -600px;
-  
   }
   .partner {
     padding-top: 600px !important;
   }
   .afmons {
-margin-left: -130px;
+    margin-left: -130px;
   }
   .frist-tap {
     flex-direction: column;
@@ -77,7 +76,7 @@ margin-left: -130px;
   .first-hr {
     display: none;
   }
-  .first-hr2  {
+  .first-hr2 {
     display: none;
   }
   .cotege-one {
@@ -87,37 +86,43 @@ margin-left: -130px;
   .cotege-two {
     display: none;
   }
-.cotege-red {
-  margin-left: 6px;
-  padding-bottom: 20px;
+  .cotege-red {
+    margin-left: 6px;
+    padding-bottom: 20px;
+  }
+  .adminstaration-red {
+    margin-left: -123px;
+    padding-bottom: 30px;
+  }
+  .admin {
+    margin-top: 100px;
+  }
+  .cotege-medu {
+    padding: 20px 0;
+  }
+  .header {
+    margin-right: 70px;
+  }
 }
-.adminstaration-red {
-  margin-left: -123px;
-  padding-bottom: 30px;
-}
-.admin {
-  margin-top: 100px;
-}
-.cotege-medu {
- padding: 20px 0;
-}
-.header {
-  margin-right: 70px;
+@media (max-width: 768px) {
+  .modal {
+    margin-left: -50px;
+    margin-top: -43px;
+    width: 500px;
+    height: 750px;
+    border: 1px solid red;
+  }
 
-}
-}
-@media (max-width:768px) {
+  .hero-block {
+    margin-left: -45px;
+  }
+  .burger {
+    display: none;
+  }
+  .header-one {
+    display: none;
+  }
 
-.hero-block {
-  margin-left: -45px;
-}
-.burger {
-  display: none;
-}
-.header-one {
-  display: none;
-}
- 
   .administration-group {
     margin-left: 88px;
   }
@@ -137,52 +142,62 @@ margin-left: -130px;
     top: 584px;
     left: -2px;
   }
-  .contact-five{
+  .contact-five {
     padding-left: 1px !important;
   }
   .footer {
     margin-left: -40px;
   }
- 
- 
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
+  .modal {
+    margin-left: -50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 650px;
+  }
+  .modal-img {
+    max-width: 64%;
+  }
   .bakyt {
     padding: 0 3px;
   }
- .figo-desc {
-  font-size: 18px;
-  width: 210px;
-  margin: 10px 0;
- }
- .first-images{
-  max-width: 95%;
- }
- .akna {
-  margin-left: 33px;
- }
- .partner {
-  padding-top: 770px !important;
+  .figo-desc {
+    font-size: 18px;
+    width: 210px;
+    margin: 10px 0;
+  }
+  .first-images {
+    max-width: 95%;
+  }
+  .akna {
+    margin-left: 33px;
+  }
+  .partner {
+    padding-top: 770px !important;
+  }
+  .company-img {
+    width: 300px;
+  }
+  .maxa {
+    width: 345px;
+    height: 330px;
+  }
+  .contact-one {
+    margin-left: -30px;
+  }
+  .hero-block {
+    margin-left: 20px;
+  }
+  .hero-block1 {
+    width: 500px;
+  }
 }
-.company-img {
-  width: 300px;
-}
-.maxa {
-  width: 345px;
-  height: 330px;
-}
-.contact-one {
-  margin-left: -30px;
-}
-.hero-block {
-margin-left: 20px;
-}
-.hero-block1 {
-  width: 500px;
-}
-}
-@media (max-width:450px) {
+@media (max-width: 450px) {
+  .modal {
+    margin-left: -81px;
+  }
   .hero-h1 {
     font-size: 60px;
   }
@@ -194,98 +209,106 @@ margin-left: 20px;
     margin-top: 40px;
   }
   .hero-block1 {
-  width: 370px;
-  height: 440px;
+    width: 370px;
+    height: 440px;
+  }
+  .admin {
+    margin-left: 15px;
+  }
+  .figo-cercle {
+    width: 85px;
+    height: 85px;
+  }
+  .figo-svg {
+    width: 50px;
+  }
+  .figo-desc {
+    font-size: 16px;
+    width: 155px;
+  }
+  .figo-redux {
+    padding-top: 10px;
+  }
+  .first-images {
+    max-width: 75%;
+    margin-left: 61px;
+  }
+  .object-h1 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .dap {
+    padding-left: 59px;
+    gap: 25px;
+    max-width: 560px;
+  }
+  .mat {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .first-red {
+    width: 400px;
+    margin-left: 55px;
+  }
+  .btn-first {
+    width: 175px;
+    height: 43px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .aziret {
+    margin-left: 53px;
+  }
+  .malika {
+    width: 410px;
+  }
+  .malika-pne {
+    font-size: 50px;
+  }
+  .drug {
+    height: 77px;
+    margin-left: 14px;
+  }
+  .dastan {
+    font-size: 30px;
+  }
+  .bekbol {
+    justify-content: space-evenly;
+  }
+  .maxa {
+    width: 310px;
+    height: 300px;
+  }
+  .maxa-imgone {
+    left: -70px;
+  }
+  .maxa-imgtwo {
+    right: -55px;
+  }
+  .company-group {
+    padding-top: 100px;
+  }
+  .partner-img img {
+    margin: 10px 10px;
+  }
+  .partner-images img {
+    margin: 10px 10px;
+  }
+  .partner {
+    margin-top: 100px;
+  }
 }
-.admin {
-  margin-left: 15px;
-}
-.figo-cercle {
-  width: 85px;
-  height: 85px;
-}
-.figo-svg {
-  width: 50px;
-}
-.figo-desc {
-  font-size: 16px;
-  width: 155px;
-}
-.figo-redux {
-  padding-top: 10px;
-}
-.first-images {
-  max-width: 75%;
-  margin-left: 61px;
-}
-.object-h1  {
-  font-size: 16px;
-  font-weight: 400;
-}
-.dap {
-  padding-left: 59px;
-  gap: 25px;
-  max-width: 560px;
-}
-.mat {
-  font-size: 16px;
-  font-weight: 400;
-}
-.first-red {
-  width: 400px;
-  margin-left: 55px;
-}
-.btn-first {
-  width: 175px;
-  height: 43px;
-  font-size: 16px;
-  font-weight:400;
-}
-.aziret {
-  margin-left: 53px;
-}
-.malika{
-  width: 410px;
-}
-.malika-pne {
-  font-size: 50px;
-}
-.drug {
-  height: 77px;
-margin-left: 14px;
-}
-.dastan {
-  font-size: 30px;
-}
-.bekbol {
-  justify-content: space-evenly;
-}
-.maxa {
-  width: 310px;
-  height: 300px;
-}
-.maxa-imgone {
-  left: -70px;
-}
-.maxa-imgtwo {
-  right: -55px;
-}
-.company-group {
-  padding-top: 100px;
-}
-.partner-img  img{
-  margin: 10px 10px;
 
-}
-.partner-images img {
-  margin: 10px 10px;
-}
-.partner {
-  margin-top: 100px;
-}
-}
-
-@media (max-width:390px) {
+@media (max-width: 390px) {
+  .modal-text {
+    font-size: 11px;
+  }
+  .modal {
+    margin-left: -58px;
+    margin-top: 100px;
+    width: 320px;
+    height: 520px;
+  }
   .hero-block1 {
     width: 304px;
     height: 367px;
@@ -303,8 +326,9 @@ margin-left: 14px;
   }
   .dap {
     padding-left: 100px;
-        gap: 15px;
+    gap: 15px;
     max-width: 522px;
+    margin-top: -120px;
   }
   .mat {
     font-size: 14px;
@@ -319,82 +343,145 @@ margin-left: 14px;
     width: 380px;
     margin-left: 68px;
   }
- .first-black {
-  font-size: 14px;
- }
- .object-h1 {
-  font-size: 13px;
-}
-.btn-first {
-  width: 143px;
-  height: 38px;
-  font-size: 13px;
-  font-weight: 300;
-}
-.aziret {
-  gap: 10px;
-  margin-left: 100px;
-}
-.cotege-medu {
-  padding: 5px 0;
-}
-.cotege-medu {
-  font-size: 55px;
-  line-height: 50px;
-}
-.cotege-desc {
-  font-size: 18px;
-  width: 360px;
-}
-.cotege-gap {
-  gap: 0.5rem;
-}
-.cotege-one {
-  margin-left: -20px;
-}
-.drug {
-  display: none;
-}
-.malika-pne {
-  margin-left: 10px;
-}
-.malika-pne span {
-  font-size: 52px;
-}
-.malika {
-  font-size: 17px;
-  margin-left: 75px;
-  width: 320px;
-}
-.dastan {
-  font-size: 18px;
-}
-.azit {
-  font-size: 16px;
-}
-.bekbol {
-  width: 423px;
-}
-.maxa-imgtwo {
-  right: 5px;
-}
-.maxa-imgone {
-  left: -5px;
-  width: 310px;
-  top: 182px;
+  .first-black {
+    font-size: 14px;
+  }
+  .object-h1 {
+    font-size: 13px;
+  }
+  .btn-first {
+    width: 143px;
+    height: 38px;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .aziret {
+    gap: 10px;
+    margin-left: 100px;
+  }
+  .cotege-medu {
+    padding: 5px 0;
+  }
+  .cotege-medu {
+    font-size: 55px;
+    line-height: 50px;
+  }
+  .cotege-desc {
+    font-size: 18px;
+    width: 360px;
+  }
+  .cotege-gap {
+    gap: 0.5rem;
+  }
+  .cotege-one {
+    margin-left: -20px;
+  }
+  .drug {
+    display: none;
+  }
+  .malika-pne {
+    margin-left: 10px;
+  }
+  .malika-pne span {
+    font-size: 52px;
+  }
+  .malika {
+    font-size: 17px;
+    margin-left: 75px;
+    width: 320px;
+  }
+  .dastan {
+    font-size: 18px;
+  }
+  .azit {
+    font-size: 16px;
+  }
+  .bekbol {
+    width: 423px;
+  }
+  #cotege {
+    margin-top: 81px;
+  }
+  .maxa-imgtwo {
+    right: 5px;
+  }
+  .maxa-imgone {
+    left: -5px;
+    width: 310px;
+    top: 182px;
+  }
+  .maxa {
+    width: 320px;
+    height: 300px;
+    margin-left: -16px;
+  }
+  .company-group {
+    padding-bottom: 100px;
+  }
+  .first-images {
+    max-width: 60%;
+    margin-left: 106px;
+  }
  
 }
-.maxa {
-  width: 320px;
-height: 300px;
-margin-left: -16px;
-}
-.company-group {
-  padding-bottom: 100px;
-}
-.first-images {
-  max-width: 60%;
-  margin-left: 106px;
-}
 
+@media (max-width: 320px) {
+  .modal {
+    margin-left: -71px;
+    margin-top: 100px;
+    width: 304px;
+    height: 520px;
+  }
+  .hero-block1 {
+    width: 254px;
+    height: 300px;
+  }
+  .admin-h6 {
+    width: 296px;
+  }
+  .object-redux {
+    font-size: 42px;
+  }
+  .dap {
+    padding-left: 200px;
+    gap: 15px;
+    max-width: 455px;
+    margin-top: -150px;
+  }
+  .aziret {
+    flex-wrap: wrap;
+    width: 295px;
+    margin-top: -41px;
+    margin-left: 140px;
+  }
+  .cotege-medu {
+    padding: 5px 0;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .cotege-medu span  {
+    padding: 5px 0;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .cotege-desc {
+    font-size: 16px;
+    width: 287px;
+  }
+  .malika {
+    font-size: 15px;
+    margin-left: 12px;
+    width: 285px;
+  }  
+  .bekbol {
+    width: 330px;
+  }
+  .malika-pne {
+    margin-left: -27px;
+  }
+  .maxa {
+    width: 310px;
+    height: 300px;
+    margin-left: -11px;
+  }
 }
